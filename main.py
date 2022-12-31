@@ -27,7 +27,6 @@ app.add_middleware(
 async def startup_function():
     app.mongodb_client = MongoClient(os.environ["MONGODB_URI"])
     app.database = app.mongodb_client[os.environ["MONGODB_PREFERENCES_DB"]]
-    app.embeddings_database = app.mongodb_client[os.environ["MONGODB_EMBEDDINGS_DB"]]
 
 
 @app.on_event("shutdown")
