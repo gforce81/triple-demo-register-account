@@ -37,7 +37,7 @@ def create_card_account(params):
 
     requestURL = "https://api.sandbox.tripleup.dev/partner/card-accounts"
     data = {
-        "card_program_external_id": "gauthier-card-program-01",
+        "card_program_external_id": "gauthier-card-program-demo-01",
         "default_country_code": "US",
         "default_postal_code": params['default_postal_code'],
         "external_id": params['external_id'],
