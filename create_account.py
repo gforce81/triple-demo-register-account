@@ -53,6 +53,7 @@ def create_card_account(params):
     )
 
     response = r.json()
+    print(response)
     register_mongo_user(response['id'])
     return response
 
