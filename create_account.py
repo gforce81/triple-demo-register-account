@@ -42,6 +42,8 @@ def create_card_account(params):
         "default_postal_code": params['default_postal_code'],
         "external_id": params['external_id'],
     }
+    
+    print(data)
 
     r = requests.post(
         requestURL,
