@@ -4,8 +4,8 @@ import requests
 
 # api endpoints and values
 URL = "https://auth.sandbox.tripleup.dev/oauth2/token"
-triple_id = "9f73g3nuvt1fnfpdqfgmeglts"
-triple_secret = "1fguvl1v8vgmanhl1kcob8rq1vln8ddl20npa7r86crmfpuhielm"
+triple_id = ""
+triple_secret = ""
 grant_type = "client_credentials"
 
 # authorization key must be base64 encoded and concatenate triple_id:triple_secret
